@@ -1,0 +1,28 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Machine Learning Models & Weights
+*.pt
+*.pth
+*.pkl
+*.onnx
+
+# Datasets and Synthetic Telemetry
+/data/generation/*.json
+/data/generation/*.csv
+/data/generation/*.log
+/data/**/*.json
+/data/**/*.log
+*.redis
+
+# VS Code specific
+.vscode/
