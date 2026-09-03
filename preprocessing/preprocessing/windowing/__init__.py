@@ -1,0 +1,1 @@
+"""Fixed-time and session-time window logic."""
