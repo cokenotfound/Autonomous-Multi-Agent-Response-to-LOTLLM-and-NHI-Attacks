@@ -24,5 +24,11 @@ ENV/
 /data/**/*.log
 *.redis
 
-# VS Code specific
-.vscode/
+.vscode/\
+
+# Generated datasets and intermediate outputs
+data/
+preprocessing/data/
+models/
+*.json
+*.jsonl
