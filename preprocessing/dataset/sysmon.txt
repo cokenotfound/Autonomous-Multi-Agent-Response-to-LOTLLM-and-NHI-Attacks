@@ -1,0 +1,71 @@
+1788368675249-0
+source_type
+sysmon
+raw_payload
+test
+1788465231895-0
+envelope_id
+bc6458e0-7d66-4eb2-af5f-ff80c7fe6c06
+source_type
+sysmon
+host
+simulated-windows-host
+ingested_at
+2026-09-03T19:53:51.837191+00:00
+raw_payload
+{"EventID": 1, "event_type": "Process Create", "image": "C:\\Windows\\System32\\cmd.exe", "command_line": "cmd.exe /c whoami", "parent_image": "C:\\Windows\\explorer.exe", "user": "test-service", "timestamp": "2026-09-03T19:53:51.836831+00:00", "simulated": true}
+1788465231896-0
+envelope_id
+cbd2df8a-69f2-417e-9b4b-f0c539ef22f7
+source_type
+sysmon
+host
+simulated-windows-host
+ingested_at
+2026-09-03T19:53:51.896573+00:00
+raw_payload
+{"EventID": 1, "event_type": "Process Create", "image": "C:\\Windows\\System32\\powershell.exe", "command_line": "powershell.exe -Command Get-Process", "parent_image": "C:\\Windows\\explorer.exe", "user": "test-service", "timestamp": "2026-09-03T19:53:51.837171+00:00", "simulated": true}
+1788465231896-1
+envelope_id
+bcec5410-e874-4b5e-a834-216e6ab59b55
+source_type
+sysmon
+host
+simulated-windows-host
+ingested_at
+2026-09-03T19:53:51.896781+00:00
+raw_payload
+{"EventID": 1, "event_type": "Process Create", "image": "C:\\Windows\\System32\\cmd.exe", "command_line": "cmd.exe /c ipconfig", "parent_image": "C:\\Windows\\System32\\services.exe", "user": "ci-runner", "timestamp": "2026-09-03T19:53:51.837173+00:00", "simulated": true}
+1788465231897-0
+envelope_id
+c4ed27b6-5dd9-4c94-aa11-9072ec517d00
+source_type
+sysmon
+host
+simulated-windows-host
+ingested_at
+2026-09-03T19:53:51.896951+00:00
+raw_payload
+{"EventID": 3, "event_type": "Network Connection", "source_ip": "10.0.0.25", "destination_ip": "10.0.0.10", "destination_port": 443, "image": "C:\\Program Files\\Agent\\agent.exe", "timestamp": "2026-09-03T19:53:51.837174+00:00", "simulated": true}
+1788465231897-1
+envelope_id
+5e76a467-a4b2-421f-beea-94262a8ac1c9
+source_type
+sysmon
+host
+simulated-windows-host
+ingested_at
+2026-09-03T19:53:51.897137+00:00
+raw_payload
+{"EventID": 11, "event_type": "File Create", "file_path": "C:\\Temp\\agent_output.txt", "image": "C:\\Program Files\\Agent\\agent.exe", "timestamp": "2026-09-03T19:53:51.837174+00:00", "simulated": true}
+1788465231897-2
+envelope_id
+fa792a64-1cec-4680-9b07-fa415571b095
+source_type
+sysmon
+host
+simulated-windows-host
+ingested_at
+2026-09-03T19:53:51.897331+00:00
+raw_payload
+{"EventID": 22, "event_type": "DNS Query", "query_name": "api.internal.local", "image": "C:\\Program Files\\Agent\\agent.exe", "timestamp": "2026-09-03T19:53:51.837175+00:00", "simulated": true}

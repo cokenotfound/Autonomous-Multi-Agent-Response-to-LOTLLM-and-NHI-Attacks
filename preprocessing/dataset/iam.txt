@@ -1,0 +1,71 @@
+1788368675278-0
+source_type
+iam
+raw_payload
+test
+1788372698321-0
+envelope_id
+3fe83589-c949-4ae5-a958-b484e5c787c8
+source_type
+iam
+host
+localhost
+ingested_at
+2026-09-02T18:11:38.311258+00:00
+raw_payload
+{"identity": "test-service", "event_name": "CreateAccessToken", "source_ip": "127.0.0.1", "user_agent": "mock-nhi-client", "success": true, "timestamp": "2026-09-02T18:11:38.311147+00:00"}
+1788372981732-0
+envelope_id
+2dc72e47-c267-4d79-aa2d-7cba554ee04f
+source_type
+iam
+host
+localhost
+ingested_at
+2026-09-02T18:16:21.732687+00:00
+raw_payload
+{"identity": "unknown-service", "event_name": "CreateAccessToken", "source_ip": "127.0.0.1", "user_agent": "mock-nhi-client", "success": false, "timestamp": "2026-09-02T18:16:21.732644+00:00"}
+1788465231899-0
+envelope_id
+3f633140-b3ff-4526-a314-7de870a2cdc3
+source_type
+iam
+host
+simulated-identity-host
+ingested_at
+2026-09-03T19:53:51.899556+00:00
+raw_payload
+{"identity": "test-service", "event_name": "CreateAccessToken", "source_ip": "10.0.0.15", "user_agent": "mock-nhi-client", "success": true, "timestamp": "2026-09-03T19:53:51.899547+00:00", "simulated": true}
+1788465231899-1
+envelope_id
+f65acb5a-3fd6-4fb1-9d88-1388ae20aa54
+source_type
+iam
+host
+simulated-identity-host
+ingested_at
+2026-09-03T19:53:51.899708+00:00
+raw_payload
+{"identity": "research-agent", "event_name": "AssumeRole", "role": "research-role", "source_ip": "10.0.0.16", "user_agent": "mock-nhi-client", "success": true, "timestamp": "2026-09-03T19:53:51.899548+00:00", "simulated": true}
+1788465231899-2
+envelope_id
+a3ebb5e2-b53f-4102-8536-9c6078ec36ef
+source_type
+iam
+host
+simulated-identity-host
+ingested_at
+2026-09-03T19:53:51.899852+00:00
+raw_payload
+{"identity": "ci-runner", "event_name": "CreateAccessToken", "source_ip": "10.0.0.17", "user_agent": "mock-ci-client", "success": true, "timestamp": "2026-09-03T19:53:51.899549+00:00", "simulated": true}
+1788465231900-0
+envelope_id
+2afd79d5-4a9e-4aa8-8b18-1f44a8be530c
+source_type
+iam
+host
+simulated-identity-host
+ingested_at
+2026-09-03T19:53:51.899996+00:00
+raw_payload
+{"identity": "unknown-service", "event_name": "CreateAccessToken", "source_ip": "10.0.0.99", "user_agent": "unknown-client", "success": false, "timestamp": "2026-09-03T19:53:51.899550+00:00", "simulated": true}

@@ -1,0 +1,71 @@
+1788368675285-0
+source_type
+vault
+raw_payload
+test
+1788372738587-0
+envelope_id
+70327cd3-e4f2-469d-9d60-bc8e678a1ecf
+source_type
+vault
+host
+localhost
+ingested_at
+2026-09-02T18:12:18.587255+00:00
+raw_payload
+{"identity": "test-service", "event_name": "GetSecretValue", "secret_path": "database/password", "source_ip": "127.0.0.1", "user_agent": "mock-nhi-client", "success": true, "timestamp": "2026-09-02T18:12:18.587208+00:00"}
+1788373023535-0
+envelope_id
+8cb62e36-9a78-43df-bbe2-e788c79b1b70
+source_type
+vault
+host
+localhost
+ingested_at
+2026-09-02T18:17:03.535670+00:00
+raw_payload
+{"identity": "unknown-service", "event_name": "GetSecretValue", "secret_path": "database/password", "source_ip": "127.0.0.1", "user_agent": "mock-nhi-client", "success": false, "timestamp": "2026-09-02T18:17:03.535617+00:00"}
+1788465231900-0
+envelope_id
+2a315f19-632e-45e3-a5be-c9e28fb9d772
+source_type
+vault
+host
+simulated-vault-host
+ingested_at
+2026-09-03T19:53:51.900149+00:00
+raw_payload
+{"identity": "test-service", "event_name": "GetSecretValue", "secret_path": "database/password", "source_ip": "10.0.0.15", "success": true, "timestamp": "2026-09-03T19:53:51.900139+00:00", "simulated": true}
+1788465231900-1
+envelope_id
+bcb6af24-8917-4214-aa24-f2685626e9f2
+source_type
+vault
+host
+simulated-vault-host
+ingested_at
+2026-09-03T19:53:51.900284+00:00
+raw_payload
+{"identity": "research-agent", "event_name": "GetSecretValue", "secret_path": "research/api-key", "source_ip": "10.0.0.16", "success": true, "timestamp": "2026-09-03T19:53:51.900140+00:00", "simulated": true}
+1788465231900-2
+envelope_id
+7f1a848a-941f-476c-ac84-8133fe38d6bf
+source_type
+vault
+host
+simulated-vault-host
+ingested_at
+2026-09-03T19:53:51.900401+00:00
+raw_payload
+{"identity": "ci-runner", "event_name": "GetSecretValue", "secret_path": "ci/deployment-token", "source_ip": "10.0.0.17", "success": true, "timestamp": "2026-09-03T19:53:51.900141+00:00", "simulated": true}
+1788465231900-3
+envelope_id
+ea880daa-a8cd-4142-a63d-be3a6e8b7e41
+source_type
+vault
+host
+simulated-vault-host
+ingested_at
+2026-09-03T19:53:51.900514+00:00
+raw_payload
+{"identity": "unknown-service", "event_name": "GetSecretValue", "secret_path": "database/password", "source_ip": "10.0.0.99", "success": false, "timestamp": "2026-09-03T19:53:51.900142+00:00", "simulated": true}

@@ -1,0 +1,71 @@
+1788368675292-0
+source_type
+api_gateway
+raw_payload
+test
+1788372948144-0
+envelope_id
+9d233940-1a3c-411d-baa6-80dbb5b738a9
+source_type
+api_gateway
+host
+localhost
+ingested_at
+2026-09-02T18:15:48.144600+00:00
+raw_payload
+{"identity": "test-service", "event_name": "GatewayCall", "service": "database", "action": "read", "source_ip": "127.0.0.1", "user_agent": "mock-nhi-client", "success": true, "timestamp": "2026-09-02T18:15:48.144553+00:00"}
+1788373054203-0
+envelope_id
+d74052fc-a6d2-4838-8e7f-86b7efb3846a
+source_type
+api_gateway
+host
+localhost
+ingested_at
+2026-09-02T18:17:34.203417+00:00
+raw_payload
+{"identity": "unknown-service", "event_name": "GatewayCall", "service": "database", "action": "read", "source_ip": "127.0.0.1", "user_agent": "mock-nhi-client", "success": false, "timestamp": "2026-09-02T18:17:34.203370+00:00"}
+1788465231900-0
+envelope_id
+145a57bd-89f4-4afa-b33a-fb0a432b1c51
+source_type
+api_gateway
+host
+simulated-api-host
+ingested_at
+2026-09-03T19:53:51.900631+00:00
+raw_payload
+{"identity": "test-service", "service": "users", "action": "GET /users", "source_ip": "10.0.0.15", "success": true, "timestamp": "2026-09-03T19:53:51.900621+00:00", "simulated": true}
+1788465231900-1
+envelope_id
+05a0c8f7-5181-4faa-89ad-3166f29ada54
+source_type
+api_gateway
+host
+simulated-api-host
+ingested_at
+2026-09-03T19:53:51.900747+00:00
+raw_payload
+{"identity": "research-agent", "service": "research", "action": "GET /reports", "source_ip": "10.0.0.16", "success": true, "timestamp": "2026-09-03T19:53:51.900623+00:00", "simulated": true}
+1788465231900-2
+envelope_id
+496aff3d-e1d9-403e-a45e-1d2f5e9fe449
+source_type
+api_gateway
+host
+simulated-api-host
+ingested_at
+2026-09-03T19:53:51.900860+00:00
+raw_payload
+{"identity": "ci-runner", "service": "deployment", "action": "POST /deploy", "source_ip": "10.0.0.17", "success": true, "timestamp": "2026-09-03T19:53:51.900624+00:00", "simulated": true}
+1788465231901-0
+envelope_id
+fe7c2f96-ec83-4b46-ad15-0228d32a5071
+source_type
+api_gateway
+host
+simulated-api-host
+ingested_at
+2026-09-03T19:53:51.900973+00:00
+raw_payload
+{"identity": "unknown-service", "service": "admin", "action": "POST /admin/delete", "source_ip": "10.0.0.99", "success": false, "timestamp": "2026-09-03T19:53:51.900625+00:00", "simulated": true}

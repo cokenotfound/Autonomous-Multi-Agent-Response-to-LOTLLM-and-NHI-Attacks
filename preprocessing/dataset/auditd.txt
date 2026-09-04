@@ -1,0 +1,71 @@
+1788368675260-0
+source_type
+auditd
+raw_payload
+test
+1788465231897-0
+envelope_id
+cf826460-790a-497e-a5d4-4823b148aaab
+source_type
+auditd
+host
+simulated-linux-host
+ingested_at
+2026-09-03T19:53:51.897494+00:00
+raw_payload
+{"record_type": "EXECVE", "command": "/usr/bin/whoami", "arguments": ["whoami"], "uid": 1001, "identity": "test-service", "timestamp": "2026-09-03T19:53:51.897482+00:00", "simulated": true}
+1788465231898-0
+envelope_id
+4b68457a-62a9-4efd-9a59-99213294232c
+source_type
+auditd
+host
+simulated-linux-host
+ingested_at
+2026-09-03T19:53:51.897652+00:00
+raw_payload
+{"record_type": "EXECVE", "command": "/usr/bin/ls", "arguments": ["ls", "-la"], "uid": 1001, "identity": "test-service", "timestamp": "2026-09-03T19:53:51.897483+00:00", "simulated": true}
+1788465231898-1
+envelope_id
+a52cbc9e-5e7a-41db-b293-b12111c9fa84
+source_type
+auditd
+host
+simulated-linux-host
+ingested_at
+2026-09-03T19:53:51.898299+00:00
+raw_payload
+{"record_type": "SYSCALL", "syscall": "execve", "command": "/usr/bin/python3", "uid": 1002, "identity": "etl-service", "timestamp": "2026-09-03T19:53:51.897485+00:00", "simulated": true}
+1788465231898-2
+envelope_id
+2d5e4b62-01f1-4e23-966b-6c0ea744f390
+source_type
+auditd
+host
+simulated-linux-host
+ingested_at
+2026-09-03T19:53:51.898451+00:00
+raw_payload
+{"record_type": "PATH", "path": "/tmp/etl_output.json", "operation": "CREATE", "uid": 1002, "identity": "etl-service", "timestamp": "2026-09-03T19:53:51.897486+00:00", "simulated": true}
+1788465231898-3
+envelope_id
+3220cf8e-b9de-425a-9ad4-64fc0fea1370
+source_type
+auditd
+host
+simulated-linux-host
+ingested_at
+2026-09-03T19:53:51.898598+00:00
+raw_payload
+{"record_type": "EXECVE", "command": "/bin/bash", "arguments": ["bash", "-c", "curl http://internal-api"], "uid": 1003, "identity": "ci-runner", "timestamp": "2026-09-03T19:53:51.897487+00:00", "simulated": true}
+1788465231898-4
+envelope_id
+c2288dc7-8ad1-48c5-9844-4c5c54a45021
+source_type
+auditd
+host
+simulated-linux-host
+ingested_at
+2026-09-03T19:53:51.898745+00:00
+raw_payload
+{"record_type": "SYSCALL", "syscall": "connect", "destination": "10.0.0.20:443", "uid": 1003, "identity": "ci-runner", "timestamp": "2026-09-03T19:53:51.897488+00:00", "simulated": true}
